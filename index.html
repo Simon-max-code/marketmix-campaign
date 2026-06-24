@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>join the waitlist| MarketMix</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
   html, body { overflow-x: hidden; max-width: 100%; }
 .about-hero, .about-section, .waitlist-cta, .marquee-divider { max-width: 100%; }
@@ -439,7 +440,39 @@ if(window.matchMedia('(max-width:900px)').matches){
 <a href="waitlist.html" class="btn">Join the Waitlist →</a>
 </section>
 
-<footer>© 2026 MarketMix. All rights reserved.</footer>
+<footer style="background:#0B0B0F;color:#9999a3;padding:50px 0 20px;">
+  <div class="container" style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;padding-bottom:30px;border-bottom:1px solid #222;">
+
+    <div style="flex:1;min-width:220px;">
+      <svg class="marketmix-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="150" height="38">
+        <text x="10" y="58" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-weight="700" font-size="52" letter-spacing="-1.5px">
+          <tspan fill="#ffffff">market</tspan><tspan fill="#FF7A00">mix</tspan>
+        </text>
+      </svg>
+      <p style="margin-top:14px;font-size:13px;line-height:1.7;max-width:280px;">A growing traffic network helping businesses become easier to discover, trust, and buy from.</p>
+    </div>
+
+    <div style="flex:1;min-width:160px;">
+      <h3 style="color:#fff;font-size:14px;margin-bottom:14px;">Quick Links</h3>
+      <div style="display:flex;flex-direction:column;gap:9px;font-size:13px;">
+        <a href="../index.html" style="color:#9999a3;">Home</a>
+        <a href="founders.html" style="color:#9999a3;">Founders</a>
+        <a href="waitlist.html" style="color:#9999a3;">Join Waitlist</a>
+      </div>
+    </div>
+
+    <div style="flex:1;min-width:160px;">
+      <div style="display:flex;gap:16px;">
+        <a href="https://www.tiktok.com/@marketmixhq" style="color:var(--orange);font-size:20px;"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://x.com/marketmixhq" style="color:var(--orange);font-size:20px;"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://instagram.com/marketmixhq" style="color:var(--orange);font-size:20px;"><i class="fa-brands fa-instagram"></i></a>
+        <!-- <a href="#" style="color:var(--orange);font-size:20px;"><i class="fa-brands fa-linkedin"></i></a> -->
+      </div>
+    </div>
+
+  </div>
+  <p style="text-align:center;font-size:12px;color:#666;padding-top:18px;">© 2026 MarketMix. All rights reserved.</p>
+</footer>
 <script>
 function showTab(id, btn){
   document.querySelectorAll('.steps-group').forEach(el=>el.classList.remove('active'));
